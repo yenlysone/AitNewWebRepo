@@ -1,0 +1,11 @@
+.row{
+	background: red;
+}
+
+.col-md-6{
+	background: black;
+}
+
+.col-md-4{
+	background: grey;
+}
