@@ -18,7 +18,7 @@
       <div class="container">
 
         <nav class="navbar-static-top">
-          <div class="container">
+          <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -27,10 +27,10 @@
                 <span class="icon-bar"></span>
               </button>
                     <a class="navbar-brand" href="#">
-        				<img alt="Brand" src="images/logo.png" height="320%">
+        				<img alt="Brand" src="images/logo.png" height="100" width="510">
       				</a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse" >
+      <div id="navbar" class="navbar-collapse collapse" >
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">HOME</a></li>
                 <li><a href="#about">ABOUT US</a></li>
@@ -44,11 +44,10 @@
         </nav>
 
       </div>
-    </div>
+    </div><!-- END OF NAVBAR-WRAPPER -->
 
 
-
-
+<%-- 
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -88,7 +87,7 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
-
+    </div><!-- /.carousel --> --%>
+  
 </body>
 </html>
