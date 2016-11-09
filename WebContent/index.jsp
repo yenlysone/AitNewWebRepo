@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome to AIT 2.0</title>
+<title>A.I.T 2.0</title>
 	
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/custom.css">
@@ -10,115 +10,189 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	 
-<div class="navbar navbar-default">
-      <div class="container-fluid">
+	<header id="navbar-top" class="banner navbar navbar-default" role="banner">
+		<div class="panel-affix affix-top" data-spy="affix" data-offset-top="79">
+			<div class="container">
+				<div class="navbar-inner">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        				<span class="sr-only">Toggle Navigation</span>
+       					<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+     				</button>
+     				<a class="brand" href="http://localhost:8080/WebPortal/">
+     				Association of Ivorians in Texas</a>
+     				<a class="brand-piccolo" href="http://localhost:8080/WebPortal/">
+     				Association of Ivorians in Texas</a>
+					<nav class="collapse navbar-collapse" role="navigation">
+						<ul id="menu-primary-navigation-en" class="nav navbar-nav">
+							<li class="menu-home"><a
+								href="http://localhost:8080/WebPortal/" class=" roll"><span
+									data-title="Home">Home</span></a></li>
+							<li class="menu-about"><a
+								href="#about-us" class=" roll"><span
+									data-title="About Us">About Us</span></a></li>
+							<li class="menu-portfolio"><a href="#events"
+								class=" roll"><span data-title="events">Events</span></a></li>
+							<li class="menu-Promotion"><a href="#Promotion"
+								class=" roll"><span data-title="Promotion">Promotion</span></a></li>
+							<li class="menu-gallery"><a
+								href="#contacts/" class=" roll"><span
+									data-title="Gallery">Gallery</span></a></li>
+							<li class="menu-donation"><a
+								href="#donation/" class=" roll"><span
+									data-title="Donation">Donation</span></a></li>
+						</ul>
+					</nav>
+				</div> <!-- navbar-inner -->
+			</div><!-- Container -->
+		</div><!-- panel-affix -->
+	</header>
+	<div class=wrap role=document id="content">
+		<div id="full-width-slider"
+			class="royalSlider rsHor rsWithBullets pronto"
+			style="height: 599px; width: 100%;">
+			<div class="rsOverflow grab-cursor"
+				style="width: 1349px; height: 599px;">
+				<div class="rsContainer"
+					style="transition-duration: 600ms; transform: translate3d(0px, 0px, 0px); transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);">
+					<div style="left: 0px;" class="rsSlide rsActiveSlide">
+						<div class="rsContent"
+							style="visibility: visible; opacity: 1; transition: opacity 400ms ease-in-out;">
+							<img class="rsImg rsMainSlideImage"
+								src="images/slideshow/1.png"
+								style="width: 1349px; height: 914px; margin-left: 0px; margin-top: -158px; top: 9px;">
+							<div class="container desc">
+								<div class="row ">
+									<div class="car-descrizione col-sm-6 ">
+										<h6 class="animated fadeIn delay03">
+											<span class="Web Design">Web Design</span> <span class="sep">/</span>
+											<span class="Newsletter">Newsletter</span>
+										</h6>
+										<h2 class="animated fadeInLeft delay03">
+											<a href="/en/portfolio/archea-associati/">Archea
+												Associati</a>
+										</h2>
+										<!--           <p class="animated fadeIn hidden-xs delay03">XXXXXXXXXXXX</p> -->
+										<a
+											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
+											href="#test">Details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="left: 1349px;" class="rsSlide">
+						<div class="rsContent">
+							<img class="rsImg rsMainSlideImage"
+								src="images/slideshow/4.png"
+								style="width: 1349px; height: 914px; margin-left: 0px;">
+							<div class="container desc">
+								<div class="row ">
+									<div class="car-descrizione col-sm-6  ">
+										<h6 class="animated fadeIn delay03">
+											<span class="Web Design">Web Design</span> <span class="sep">/</span>
+											<span class="Newsletter">Newsletter</span>
+										</h6>
+										<h2 class="animated fadeInLeft delay03">
+											<a href="/en/portfolio/garda-haus-immobiliare/">Garda
+												Haus</a>
+										</h2>
+										<!--           <p class="animated fadeIn hidden-xs delay03">Responsive website produced Per la Banca.</p> -->
+										<a
+											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
+											href="/en/portfolio/garda-haus-immobiliare/">Details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="left: 2698px;" class="rsSlide ">
+						<div class="rsContent">
+							<img class="rsImg rsMainSlideImage"
+								src="images/slideshow/3.png"
+								style="width: 1349px; height: 914px; margin-left: 0px;">
+							<div class="container desc">
+								<div class="row ">
+									<div class="car-descrizione col-sm-6  ">
+										<h6 class="animated fadeIn delay03">
+											<span class="Web Design">Web Design</span>
+										</h6>
+										<h2 class="animated fadeInLeft delay03">
+											<a href="/en/portfolio/banca-agci/">Banca AGCI</a>
+										</h2>
+										<!--           <p class="animated fadeIn hidden-xs delay03">Responsive website produced Per la Banca.</p> -->
+										<a
+											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
+											href="/en/portfolio/banca-agci/">Details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="left: -1349px;" class="rsSlide ">
+						<div class="rsContent">
+							<img class="rsImg rsMainSlideImage"
+								src="images/slideshow/2.png"
+								style="width: 1349px; height: 914px; margin-left: 0px;">
+							<div class="container desc">
+								<div class="row ">
+									<div class="car-descrizione col-sm-6 ">
+										<h6 class="animated fadeIn delay03">
+											<span class="Grafica">Graphic Design</span> <span class="sep">/</span>
+											<span class="Fotografia">Photography</span> <span class="sep">/</span>
+											<span class="Web Design">Web Design</span>
+										</h6>
+										<h2 class="animated fadeInLeft delay03">
+											<a href="/en/portfolio/move-on-firenze/">Move On Firenze</a>
+										</h2>
+										<!--           <p class="animated fadeIn hidden-xs delay03">XXXXXXXXXXXXX</p> -->
+										<a class="btn btn-primary animated fadeInUp hidden-xs delay03"
+											href="/en/portfolio/move-on-firenze/">Details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="left: -2698px;" class="rsSlide ">
+						<div class="rsContent">
+							<img class="rsImg rsMainSlideImage"
+								src="images/slideshow/1.png"
+								style="width: 100%; margin-left: 0px; ">
+							<div class="container desc">
+								<div class="row ">
+									<div class="car-descrizione col-sm-6">
+										<h2 class="animated fadeIn delay03">
+											<span class="Web Design">TOGETHER WE STAND</span> 
+											<span class="sep"><br></span>
+											<span class="Newsletter">A STRIVING COMMUNITY</span>
+										</h2>
+										<h6 class="animated fadeInLeft delay03">
+											<a href="#">Promote and achieve a well integrated, 
+											well educated, and well to-do community</a>
+										</h6>
+										<!--           <p class="animated fadeIn hidden-xs delay03">Winner of Site of the Day on AWWWWARDS, this website presents a part of florentine tradition: the art of silk.</p> -->
+										<a
+											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
+											href="#details">Details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rsNav rsBullets"><div class="rsNavItem rsBullet rsNavSelected"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div></div>
+			</div>
+		</div>
 
-        <nav class="navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                    <a href="#">
-        				<img alt="Brand" src="images/logo.png" height="60em" width="300em" class="img.responsive">
-      				</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse" >
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#events">EVENTS</a></li>
-                <li><a href="#promotion">PROMOTION</a></li>
-                <li><a href="#gallery">GALLERY</a></li>
-                <li><a href="#donation">DONATION</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>    
-    
-
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="images/slideshow/1.png" alt="slide1">
-      <div class="carousel-caption">
-        <h3>TOGETHER WE STAND <br> A THRIVING COMMUNITY</h3>
-        <p>Promote and achieve a well integrated, well educated, and well-to-do community.</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="images/slideshow/2.jpg" alt="slide2" class="img-responsive center-block">
-      <div class="carousel-caption">
-        <h3>IVORIAN PICNIC DURING SUMMERTIME</h3>
-        <p>COME SOCIALIZE AND HAVE FUN WITH US</p>
-      </div>
-    </div>
-    
-    <div class="item">
-      <img src="images/slideshow/3.jpg" alt="slide3" class="img-responsive center-block">
-      <div class="carousel-caption">
-        <h3>HAPPY INDEPENDANCE DAY</h3>
-        <p>Cote d'Ivoire just celebrated the 56th year of Independence from France</p>
-      </div>
-    </div>
-    
-    <div class="item">
-      <img src="images/slideshow/4.png" alt="slide4">
-      <div class="carousel-caption">
-        <h3>HAPPY INDEPENDANCE DAY</h3>
-        <p>Cote d'Ivoire just celebrated the 56th year of Independence from France</p>
-      </div>
-    </div>
-    
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<!-- member's form -->
-<div class="jumbotron">
-	<form class="form-inline text-center">
-  		 <div class="form-group">
-   			<input type="text" class="form-control" name="firstName" placeholder="First Name">
- 		 </div>
- 		 <div class="form-group">
-   			<input type="text" class="form-control" name="lastName" placeholder="Last Name">
- 		 </div>
-  		 <div class="form-group">
-   			<input type="text" class="form-control" name="city" placeholder="City">
- 		 </div>
- 		 <div class="form-group">
-   			<input type="email" class="form-control" name="email" placeholder="Email address">
- 		 </div>
-       <button type="submit" class="btn btn-warning">REQUEST NEWSLETTER</button>
-    </form>
 	</div>
+	
+	
+	<div><br><br>TEST
+	</div>
+	
 
+	<footer>FOOTER TEXT<br><br><br><br><br><br><br><br><br><br>
+	</footer>
 </body>
 </html>
