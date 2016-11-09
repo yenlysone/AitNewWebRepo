@@ -12,7 +12,7 @@
 <body>
 	<header id="navbar-top" class="banner navbar navbar-default" role="banner">
 		<div class="panel-affix affix-top" data-spy="affix" data-offset-top="79">
-			<div class="container">
+			<div id="header-container" class="container">
 				<div class="navbar-inner">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         				<span class="sr-only">Toggle Navigation</span>

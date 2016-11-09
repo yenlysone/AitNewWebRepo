@@ -90,7 +90,14 @@ fieldset[disabled] .btn-primary.active {
  border-color: white;
  box-shadow: none;
 }
-
+#header-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
 
 
 /* =============================================================================
@@ -149,8 +156,8 @@ fieldset[disabled] .btn-primary.active {
 .navbar .brand {
 	position: absolute;
 	bottom: 0;
-	background: url(../images/logo.png) no-repeat  center 70%;
-    width: 510px;
+	background: url(../images/logo.png) no-repeat  center 100%;
+    width: 35%;
     height: 100px;
 	background-size: 80%;
 	text-indent: -9999px;
@@ -241,6 +248,11 @@ fieldset[disabled] .btn-primary.active {
  overflow-x: hidden;
 }
 
+#menu-primary-navigation-en{
+	margin-right: -7%;
+	/*margin-top: -2%;*/
+  	padding-bottom: 1.5%;
+}
 
 
 .single-portfolio .navbar .nav > .menu-portfolio > a {
@@ -2548,7 +2560,7 @@ figure.alignnone {
 	z-index: 999;
 	opacity: 1;
 	width: 100%;
-	background-color: #323C46;
+	background-color: forestgreen;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	position: fixed;
@@ -2717,7 +2729,7 @@ section.pagina-testo-header {
 }
 
 .navbar .navbar-inner {
-	margin-top: 60px;
+	margin-top: 2%;
 
 }
 
