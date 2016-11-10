@@ -95,8 +95,8 @@ fieldset[disabled] .btn-primary.active {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1.5%;
-    margin-top: 1.5%;
+    margin-bottom: .8%;
+    margin-top: .8%;
 }
 
 
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-primary.active {
 	background: url(../images/logo.png) no-repeat  center 100%;
 	width: 300px;
     height: 60px;
-	top: 5px;
+	top: 0;
 	background-size: 100%;
 	text-indent: -9999px;
 	display: block;
