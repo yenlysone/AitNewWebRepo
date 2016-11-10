@@ -14,39 +14,6 @@
 </head>
 <body>
 
-	<!-- <div class="navbar navbar-default">
-      <div class="container-fluid">
-
-        <nav class="navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-                    <a href="#">
-        				<img alt="Brand" src="images/logo.png" height="60em" width="300em" class="img.responsive">
-      				</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse" >
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#events">EVENTS</a></li>
-                <li><a href="#promotion">PROMOTION</a></li>
-                <li><a href="#gallery">GALLERY</a></li>
-                <li><a href="#donation">DONATION</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>    -->
-
-
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
