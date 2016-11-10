@@ -13,6 +13,51 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<header id="navbar-top" class="banner navbar navbar-default" role="banner">
+		<div class="panel-affix affix-top" data-spy="affix" data-offset-top="79">
+			<div id="header-container" class="container">
+				<div class="navbar-inner">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        				<span class="sr-only">Toggle Navigation</span>
+       					<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+     				</button>
+     				<a class="brand" href="http://localhost:8080/WebPortal/">
+     				Association of Ivorians in Texas</a>
+     				<a class="brand-piccolo" href="http://localhost:8080/WebPortal/">
+     				Association of Ivorians in Texas</a>
+					<nav class="collapse navbar-collapse" role="navigation">
+						<ul id="menu-primary-navigation-en" class="nav navbar-nav">
+							<li class="menu-home"><a
+								href="http://localhost:8080/WebPortal/" class=" roll"><span
+									data-title="Home">Home</span></a></li>
+							<li class="menu-about"><a
+								href="#about-us" class=" roll"><span
+									data-title="About Us">About Us</span></a></li>
+							<li class="menu-portfolio"><a href="#events"
+								class=" roll"><span data-title="events">Events</span></a></li>
+							<li class="menu-Promotion"><a href="#Promotion"
+								class=" roll"><span data-title="Promotion">Promotion</span></a></li>
+							<li class="menu-gallery"><a
+								href="#contacts/" class=" roll"><span
+									data-title="Gallery">Gallery</span></a></li>
+							<li class="menu-donation"><a
+								href="#donation/" class=" roll"><span
+									data-title="Donation">Donation</span></a></li>
+						</ul>
+					</nav>
+				</div> <!-- navbar-inner -->
+			</div><!-- Container -->
+		</div><!-- panel-affix -->
+<!-- 		<svg width="1315" height="65" id="intro-weg">
+			<g transform="matrix(1.25,0,0,-1.25,0,611.25)">
+			<g transform="scale(0.1,0.1)">
+			<path d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,4337.24 0,0 l 10520,0 0,4376"
+				class="colorize"> 
+			</path></g> </g> 
+		</svg> -->
+	</header>
 
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
