@@ -3,6 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>A.I.T 2.0</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 	
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/custom.css">
@@ -47,7 +49,15 @@
 				</div> <!-- navbar-inner -->
 			</div><!-- Container -->
 		</div><!-- panel-affix -->
+<!-- 		<svg width="1315" height="65" id="intro-weg">
+			<g transform="matrix(1.25,0,0,-1.25,0,611.25)">
+			<g transform="scale(0.1,0.1)">
+			<path d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,4337.24 0,0 l 10520,0 0,4376"
+				class="colorize"> 
+			</path></g> </g> 
+		</svg> -->
 	</header>
+
 	<div class=wrap role=document id="content">
 		<div id="full-width-slider"
 			class="royalSlider rsHor rsWithBullets pronto"
