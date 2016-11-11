@@ -1,6 +1,5 @@
 
 
-
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -84,17 +83,6 @@ fieldset[disabled] .btn-primary.active {
     border: none !important;
 }
 
-.news {
-	background-color: forestgreen;
-	color:#fff;
-}
-
-.news-middle {
-	background-color: darkgreen;
-	color: #fff;
-}
-
-
 
 .form-control {
 
@@ -111,6 +99,19 @@ fieldset[disabled] .btn-primary.active {
     margin-top: .8%;
 }
 
+/*
+ 
+ 
+ Caroussel
+ 
+*/
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+}
+
+
 
 /* =============================================================================
    Header
@@ -123,6 +124,12 @@ fieldset[disabled] .btn-primary.active {
 .logged-in .navbar-fixed-top {
 	top: 28px;
 }
+
+#navbar-tail{
+	background: transparent;
+	margin-top:-2px;
+}
+
 
 .navbar {
 	background-color:forestgreen;
@@ -798,7 +805,7 @@ section.page-header {
 }
 
 .btn {
-	background: transparent;
+	/*background: transparent;*/
 	-webkit-transition: all 0.2s ease-out;  /* Chrome 1-25, Safari 3.2+ */
 	-moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
 	-o-transition: all 0.1s ease-out;  /* Opera 10.50–12.00 */
@@ -1160,6 +1167,21 @@ display: none;
 .rsBullet.rsNavSelected span {
 	background-color: #FFF;
 	cursor: default;
+}
+
+
+/*
+	NEWS
+*/
+
+.news {
+	background-color: forestgreen;
+	color:#fff;
+}
+
+.news:hover {
+	background-color: darkgreen;
+	color: #fff;
 }
 
 

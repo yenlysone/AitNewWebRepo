@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome to AIT 2.0</title>
+<title>A.I.T 2.0</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -50,12 +52,12 @@
 				</div> <!-- navbar-inner -->
 			</div><!-- Container -->
 		</div><!-- panel-affix -->
-<!-- 		<svg width="1315" height="65" id="intro-weg">
-			<g transform="matrix(1.25,0,0,-1.25,0,611.25)">
-			<g transform="scale(0.1,0.1)">
-			<path d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,4337.24 0,0 l 10520,0 0,4376"
-				class="colorize"> 
-			</path></g> </g> 
+		<svg width="530" height="120" id=navbar-tail class="banner">
+			<path
+			  d="M 0 0 C -800  2000 -1000 0 500  0 "
+			fill= "forestgreen"> 
+			</path>
+		</svg><!-- End of SVG navbar tail -->
 		</svg> -->
 	</header>
 
@@ -123,16 +125,14 @@
 		</a>
 	</div>
 
+
 	<!-- member's form -->
 	<div class="jumbotron">
 		<form class="form-inline text-center">
+			<img class="form-group" src="images/icon-question.png">
 			<div class="form-group">
-				<input type="text" class="form-control" name="firstName"
-					placeholder="First Name">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" name="lastName"
-					placeholder="Last Name">
+				<input type="text" class="form-control" name="fullName"
+					placeholder="Your FullName">
 			</div>
 			<div class="form-group">
 				<input type="text" class="form-control" name="city"
@@ -143,6 +143,8 @@
 					placeholder="Email address">
 			</div>
 			<button type="submit" class="btn btn-warning">REQUEST
+				NEWSLETTER</button>
+					placeholder="Email address">
 				NEWSLETTER</button>
 		</form>
 	</div>
@@ -164,6 +166,7 @@
 			</div>
 		</div>
 	</div>
+
 	
 <!-- News Section -->
  
@@ -177,7 +180,7 @@
 			</div>
 
 
-			<div class="col-md-2 news-middle">
+			<div class="col-md-2 news">
 				<h5>HOW TO BE SUCCESSFUL</h5>
 				<img
 					src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAPcAAAAJDBkZjIxMGE0LTg4MmUtNDEzNy05NmY1LThlOGQ4OTgwMDEyZA.png"
@@ -203,5 +206,9 @@
 
 		</div>
 	</div>
+	
+
+	<footer>FOOTER TEXT<br><br><br><br><br><br><br><br><br><br>
+	</footer>
 </body>
 </html>
