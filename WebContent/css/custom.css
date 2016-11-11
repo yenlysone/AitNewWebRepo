@@ -12,7 +12,7 @@ html {
 
 
 body {
-	background: #ff8000;
+	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 }
 footer{
@@ -125,11 +125,9 @@ fieldset[disabled] .btn-primary.active {
 	top: 28px;
 }
 
-#intro-tail{
+#navbar-tail{
 	background: transparent;
-
-	/*margin-top: 7%;*/
-	/*opacity: 0.90;*/
+	margin-top:-2px;
 }
 
 
@@ -1169,6 +1167,21 @@ display: none;
 .rsBullet.rsNavSelected span {
 	background-color: #FFF;
 	cursor: default;
+}
+
+
+/*
+	NEWS
+*/
+
+.news {
+	background-color: forestgreen;
+	color:#fff;
+}
+
+.news:hover {
+	background-color: darkgreen;
+	color: #fff;
 }
 
 

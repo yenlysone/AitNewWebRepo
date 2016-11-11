@@ -49,24 +49,13 @@
 				</div> <!-- navbar-inner -->
 			</div><!-- Container -->
 		</div><!-- panel-affix -->
-		<svg width="530" height="120" id=intro-tail class="banner">
-<!-- 			<g transform="scale(1,1)"> -->
+		<svg width="530" height="120" id=navbar-tail class="banner">
 			<path
-			  d="M 0 0 C -800  2000 -1000 0 500  0 " fill="forestgreen"
-			class="colorize"> 
+			  d="M 0 0 C -800  2000 -1000 0 500  0 "
+			fill= "forestgreen"> 
 			</path>
-	<!-- 	works well	but not curvy	d="M0 0 L0 1000 L500 0 Z" fill="forestgreen" -->
-<!-- 			<path d="M150 0 L75 200 L225 200 Z" /> -->
-		</svg>
-		
-<!-- 		<svg width="100%" height="65" id=intro-tail class="banner"> -->
-<!-- 			<g transform="matrix(1.25,0,0,-1.25,0,611.25)"> -->
-<!-- 			<g transform="scale(0.1,0.1)"> -->
-<!-- 			<path -->
-<!-- 			d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,9337.24 0,0 l 10520,0 0,4376" -->
-<!-- 			class="colorize  container-fluid">  -->
-<!-- 			</path></g> </g>  -->
-<!-- 		</svg> -->
+		</svg><!-- End of SVG navbar tail -->
+
 	</header>
 
 
@@ -155,8 +144,62 @@
 		</form>
 	</div>
 
+<!-- Awards and Teams -->
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-3">SCHOLARSHIP RECIPIENT
+				<img src="images/scholarshiprecipient.png" alt="scholarship recipient" class="img-thumbnail">
+				<p>FULL NAME<br/>UNIVERSITY MAJOR</p>
+			</div>
+			<div class="col-md-6">TEAM OF THE MONTH
+				<img src="images/governingteam.png" alt="team of the month" class="img-thumbnail">
+				<p>TEAM OF THE MONTH</p>
+			</div>
+			<div class="col-md-3">MEMBER OF THE MONTH
+				<img src="images/honormember.png" alt="member of the month" class="img-thumbnail">
+				<p>FULL NAME<br/>OCCUPATION</p>
+			</div>
+		</div>
+	</div>
 
-	<div><br><br>TEST
+	
+<!-- News Section -->
+ 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 news">
+				<h3>NEWS</h3>
+				<img
+					src="images/news.png" alt="news" class="img-responsive">
+				<p>IVORIAN BUSINESS OWNERS IN TEXAS</p>
+			</div>
+
+
+			<div class="col-md-2 news">
+				<h5>HOW TO BE SUCCESSFUL</h5>
+				<img
+					src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAPcAAAAJDBkZjIxMGE0LTg4MmUtNDEzNy05NmY1LThlOGQ4OTgwMDEyZA.png"
+					alt="reunion tower" class="img-responsive">
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>mall>
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+
+			<div class="col-md-4 news">
+				<img
+					src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2E946gbxxl2AeOVnOWaceuIWnXtm8JI5BERYjuODNNZN3RyDg"
+					alt="reunion tower">
+				<h5>DFW PLACES</h5>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+
+		</div>
 	</div>
 	
 
