@@ -49,155 +49,113 @@
 				</div> <!-- navbar-inner -->
 			</div><!-- Container -->
 		</div><!-- panel-affix -->
-<!-- 		<svg width="1315" height="65" id="intro-weg">
-			<g transform="matrix(1.25,0,0,-1.25,0,611.25)">
-			<g transform="scale(0.1,0.1)">
-			<path d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,4337.24 0,0 l 10520,0 0,4376"
-				class="colorize"> 
-			</path></g> </g> 
-		</svg> -->
+		<svg width="530" height="120" id=intro-tail class="banner">
+<!-- 			<g transform="scale(1,1)"> -->
+			<path
+			  d="M 0 0 C -800  2000 -1000 0 500  0 " fill="forestgreen"
+			class="colorize"> 
+			</path>
+	<!-- 	works well	but not curvy	d="M0 0 L0 1000 L500 0 Z" fill="forestgreen" -->
+<!-- 			<path d="M150 0 L75 200 L225 200 Z" /> -->
+		</svg>
+		
+<!-- 		<svg width="100%" height="65" id=intro-tail class="banner"> -->
+<!-- 			<g transform="matrix(1.25,0,0,-1.25,0,611.25)"> -->
+<!-- 			<g transform="scale(0.1,0.1)"> -->
+<!-- 			<path -->
+<!-- 			d="m 10520,4376 c -383.8,320.87 -877.97,514 -1417.32,514 0,0 526.42,-552.76 -2211.03,-552.76 L 0,9337.24 0,0 l 10520,0 0,4376" -->
+<!-- 			class="colorize  container-fluid">  -->
+<!-- 			</path></g> </g>  -->
+<!-- 		</svg> -->
 	</header>
 
-	<div class=wrap role=document id="content">
-		<div id="full-width-slider"
-			class="royalSlider rsHor rsWithBullets pronto"
-			style="height: 599px; width: 100%;">
-			<div class="rsOverflow grab-cursor"
-				style="width: 1349px; height: 599px;">
-				<div class="rsContainer"
-					style="transition-duration: 600ms; transform: translate3d(0px, 0px, 0px); transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);">
-					<div style="left: 0px;" class="rsSlide rsActiveSlide">
-						<div class="rsContent"
-							style="visibility: visible; opacity: 1; transition: opacity 400ms ease-in-out;">
-							<img class="rsImg rsMainSlideImage"
-								src="images/slideshow/1.png"
-								style="width: 1349px; height: 914px; margin-left: 0px; margin-top: -158px; top: 9px;">
-							<div class="container desc">
-								<div class="row ">
-									<div class="car-descrizione col-sm-6 ">
-										<h6 class="animated fadeIn delay03">
-											<span class="Web Design">Web Design</span> <span class="sep">/</span>
-											<span class="Newsletter">Newsletter</span>
-										</h6>
-										<h2 class="animated fadeInLeft delay03">
-											<a href="/en/portfolio/archea-associati/">Archea
-												Associati</a>
-										</h2>
-										<!--           <p class="animated fadeIn hidden-xs delay03">XXXXXXXXXXXX</p> -->
-										<a
-											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
-											href="#test">Details</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div style="left: 1349px;" class="rsSlide">
-						<div class="rsContent">
-							<img class="rsImg rsMainSlideImage"
-								src="images/slideshow/4.png"
-								style="width: 1349px; height: 914px; margin-left: 0px;">
-							<div class="container desc">
-								<div class="row ">
-									<div class="car-descrizione col-sm-6  ">
-										<h6 class="animated fadeIn delay03">
-											<span class="Web Design">Web Design</span> <span class="sep">/</span>
-											<span class="Newsletter">Newsletter</span>
-										</h6>
-										<h2 class="animated fadeInLeft delay03">
-											<a href="/en/portfolio/garda-haus-immobiliare/">Garda
-												Haus</a>
-										</h2>
-										<!--           <p class="animated fadeIn hidden-xs delay03">Responsive website produced Per la Banca.</p> -->
-										<a
-											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
-											href="/en/portfolio/garda-haus-immobiliare/">Details</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div style="left: 2698px;" class="rsSlide ">
-						<div class="rsContent">
-							<img class="rsImg rsMainSlideImage"
-								src="images/slideshow/3.png"
-								style="width: 1349px; height: 914px; margin-left: 0px;">
-							<div class="container desc">
-								<div class="row ">
-									<div class="car-descrizione col-sm-6  ">
-										<h6 class="animated fadeIn delay03">
-											<span class="Web Design">Web Design</span>
-										</h6>
-										<h2 class="animated fadeInLeft delay03">
-											<a href="/en/portfolio/banca-agci/">Banca AGCI</a>
-										</h2>
-										<!--           <p class="animated fadeIn hidden-xs delay03">Responsive website produced Per la Banca.</p> -->
-										<a
-											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
-											href="/en/portfolio/banca-agci/">Details</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div style="left: -1349px;" class="rsSlide ">
-						<div class="rsContent">
-							<img class="rsImg rsMainSlideImage"
-								src="images/slideshow/2.png"
-								style="width: 1349px; height: 914px; margin-left: 0px;">
-							<div class="container desc">
-								<div class="row ">
-									<div class="car-descrizione col-sm-6 ">
-										<h6 class="animated fadeIn delay03">
-											<span class="Grafica">Graphic Design</span> <span class="sep">/</span>
-											<span class="Fotografia">Photography</span> <span class="sep">/</span>
-											<span class="Web Design">Web Design</span>
-										</h6>
-										<h2 class="animated fadeInLeft delay03">
-											<a href="/en/portfolio/move-on-firenze/">Move On Firenze</a>
-										</h2>
-										<!--           <p class="animated fadeIn hidden-xs delay03">XXXXXXXXXXXXX</p> -->
-										<a class="btn btn-primary animated fadeInUp hidden-xs delay03"
-											href="/en/portfolio/move-on-firenze/">Details</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div style="left: -2698px;" class="rsSlide ">
-						<div class="rsContent">
-							<img class="rsImg rsMainSlideImage"
-								src="images/slideshow/1.png"
-								style="width: 100%; margin-left: 0px; ">
-							<div class="container desc">
-								<div class="row ">
-									<div class="car-descrizione col-sm-6">
-										<h2 class="animated fadeIn delay03">
-											<span class="Web Design">TOGETHER WE STAND</span> 
-											<span class="sep"><br></span>
-											<span class="Newsletter">A STRIVING COMMUNITY</span>
-										</h2>
-										<h6 class="animated fadeInLeft delay03">
-											<a href="#">Promote and achieve a well integrated, 
-											well educated, and well to-do community</a>
-										</h6>
-										<!--           <p class="animated fadeIn hidden-xs delay03">Winner of Site of the Day on AWWWWARDS, this website presents a part of florentine tradition: the art of silk.</p> -->
-										<a
-											class="btn  btn-primary animated fadeInUp hidden-xs delay03"
-											href="#details">Details</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/slideshow/1.png" alt="slide1">
+				<div class="carousel-caption">
+					<h3>
+						TOGETHER WE STAND <br> A THRIVING COMMUNITY
+					</h3>
+					<p>Promote and achieve a well integrated, well educated, and
+						well-to-do community.</p>
 				</div>
-				<div class="rsNav rsBullets"><div class="rsNavItem rsBullet rsNavSelected"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div><div class="rsNavItem rsBullet"><span></span></div></div>
 			</div>
+
+			<div class="item">
+				<img src="images/slideshow/2.jpg" alt="slide2"
+					class="img-responsive center-block">
+				<div class="carousel-caption">
+					<h3>IVORIAN PICNIC DURING SUMMERTIME</h3>
+					<p>COME SOCIALIZE AND HAVE FUN WITH US</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/slideshow/3.jpg" alt="slide3"
+					class="img-responsive center-block">
+				<div class="carousel-caption">
+					<h3>HAPPY INDEPENDANCE DAY</h3>
+					<p>Cote d'Ivoire just celebrated the 56th year of Independence
+						from France</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="images/slideshow/4.png" alt="slide4">
+				<div class="carousel-caption">
+					<h3>HAPPY INDEPENDANCE DAY</h3>
+					<p>Cote d'Ivoire just celebrated the 56th year of Independence
+						from France</p>
+				</div>
+			</div>
+
 		</div>
 
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button"
+			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+			aria-hidden="true"></span> <span class="sr-only">Previous</span>
+		</a> <a class="right carousel-control" href="#myCarousel" role="button"
+			data-slide="next"> <span
+			class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 	</div>
-	
-	
+
+
+	<!-- member's form -->
+	<div class="jumbotron">
+		<form class="form-inline text-center">
+			<img class="form-group" src="images/icon-question.png">
+			<div class="form-group">
+				<input type="text" class="form-control" name="fullName"
+					placeholder="Your FullName">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" name="city"
+					placeholder="City">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" name="email"
+					placeholder="Email address">
+			</div>
+			<button type="submit" class="btn btn-warning">REQUEST
+				NEWSLETTER</button>
+		</form>
+	</div>
+
+
 	<div><br><br>TEST
 	</div>
 	
