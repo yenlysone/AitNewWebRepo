@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>A.I.T 2.0</title>
-<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="template/images/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="template/images/favicon.ico" type="image/x-icon"/>
 	
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/custom.css">
@@ -39,10 +39,10 @@
 							<li class="menu-Promotion"><a href="#Promotion"
 								class=" roll"><span data-title="Promotion">Promotion</span></a></li>
 							<li class="menu-gallery"><a
-								href="#contacts/" class=" roll"><span
+								href="#contacts" class=" roll"><span
 									data-title="Gallery">Gallery</span></a></li>
 							<li class="menu-donation"><a
-								href="#donation/" class=" roll"><span
+								href="#donation" class=" roll"><span
 									data-title="Donation">Donation</span></a></li>
 						</ul>
 					</nav>
@@ -58,8 +58,9 @@
 
 	</header>
 
-
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Carousel -->
+<!--  	<div class="overlay"></div> -->
+	<div id="myCarousel" class="carousel slide " data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -82,7 +83,7 @@
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/2.jpg" alt="slide2"
+				<img src="images/slideshow/2.png" alt="slide2"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
 					<h3>IVORIAN PICNIC DURING SUMMERTIME</h3>
@@ -91,12 +92,11 @@
 			</div>
 
 			<div class="item">
-				<img src="images/slideshow/3.jpg" alt="slide3"
+				<img src="images/slideshow/3.png" alt="slide3"
 					class="img-responsive center-block">
 				<div class="carousel-caption">
 					<h3>HAPPY INDEPENDANCE DAY</h3>
-					<p>Cote d'Ivoire just celebrated the 56th year of Independence
-						from France</p>
+					<p>Cote d'Ivoire just celebrated the 56th year of Independence</p>
 				</div>
 			</div>
 
@@ -126,10 +126,16 @@
 	<!-- member's form -->
 	<div class="jumbotron">
 		<form class="form-inline text-center">
-			<img class="form-group" src="images/icon-question.png">
+			<div class="form-group">
+				<img src="template/images/icon-question.png">
+			</div>
+			<div class="form-group">
+				<h6>Get Connected<br>Stay Informed</h6>
+			</div>
+			
 			<div class="form-group">
 				<input type="text" class="form-control" name="fullName"
-					placeholder="Your FullName">
+					placeholder="Your Full Name">
 			</div>
 			<div class="form-group">
 				<input type="text" class="form-control" name="city"
@@ -145,7 +151,7 @@
 	</div>
 
 <!-- Awards and Teams -->
-	<div class="container text-center">
+	<div id="infofeed" class="container text-center">
 		<div class="row">
 			<div class="col-md-3">SCHOLARSHIP RECIPIENT
 				<img src="images/scholarshiprecipient.png" alt="scholarship recipient" class="img-thumbnail">
@@ -165,21 +171,21 @@
 	
 <!-- News Section -->
  
-	<div class="container-fluid">
+	<div id="newsfeed" class="container-fluid">
 		<div class="row">
-			<div class="col-md-6 news">
+			<div class="col-md-4 news-main">
 				<h3>NEWS</h3>
 				<img
-					src="images/news.png" alt="news" class="img-responsive">
-				<p>IVORIAN BUSINESS OWNERS IN TEXAS</p>
+					src="images/news/Main-News-Photo.png" alt="news" class="img-responsive">
+				<h5>IVORIAN BUSINESS OWNERS IN TEXAS</h5>
 			</div>
 
 
 			<div class="col-md-2 news">
-				<h5>HOW TO BE SUCCESSFUL</h5>
 				<img
-					src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAPcAAAAJDBkZjIxMGE0LTg4MmUtNDEzNy05NmY1LThlOGQ4OTgwMDEyZA.png"
-					alt="reunion tower" class="img-responsive">
+					src="images/news/Small-News-Photo1.png"
+					alt="How to be Successful" class="img-responsive">
+				<h6>HOW TO BE SUCCESSFUL</h6>
 				<p>
 					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
 						ipsumlorem ipsum</small>mall>
@@ -187,11 +193,11 @@
 				<a href="#">Read more...</a>
 			</div>
 
-			<div class="col-md-4 news">
+			<div class="col-md-2 news">
 				<img
-					src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2E946gbxxl2AeOVnOWaceuIWnXtm8JI5BERYjuODNNZN3RyDg"
-					alt="reunion tower">
-				<h5>DFW PLACES</h5>
+					src="images/news/Small-News-Photo2.png"
+					alt="DFW Places" class="img-responsive">
+				<h6>DFW PLACES</h6>
 				<p>
 					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
 						ipsumlorem ipsum</small>
@@ -203,7 +209,80 @@
 	</div>
 	
 
-	<footer>FOOTER TEXT<br><br><br><br><br><br><br><br><br><br>
+	<footer class="content-info">
+		<div class="bottom-advertisement">
+			<div class="form-inline">
+				<div class="form-group">
+					SOCIAL                                  
+				</div>
+				<div class="form-group">
+					         ADV 1   
+				</div>
+				<div class="form-group">
+					 ADV 2 
+				</div>
+				
+			</div>
+			<br><br><br><br><br><br>
+		</div>
+		
+	FOOTER TEXT<br><br>
+	
+<!-- FOOTER TEXT -->	
+		<div id="footer-elements" class="container text-center">
+			<div class="col-md-2">
+
+				<h6>FOOTER 1</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<h6>FOOTER 2</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+
+			</div>
+			<div class="col-md-2">
+
+				<h6>FOOTER 3</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>mall>
+				</p>
+
+			</div>
+
+			<div class="col-md-2">
+
+				<h6>FOOTER 4</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+
+			</div>
+						<div class="col-md-2">
+
+				<h6>FOOTER 5</h6>
+				<div class=line></div>
+				<p>
+					<small>lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem
+						ipsumlorem ipsum</small>
+				</p>
+
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
